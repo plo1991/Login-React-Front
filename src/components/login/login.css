@@ -1,0 +1,92 @@
+.login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{
+    margin: 0;
+    margin-right: 295px;
+}
+
+.inputEmail, .inputSenha{
+    width: 300px;
+    height: 40px;
+    border:none;
+    border-radius: 8px;
+    background: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    margin: 0;
+}
+
+.div-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 345px;
+    height: 50px;
+    border: 1px solid #999898;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.eye:hover{
+    cursor: pointer;
+}
+.botao{
+    width: 345px;
+    height: 50px;
+    border: none;
+   border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #ff0000;
+}
+.botao-register{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 345px;
+    height: 50px;
+    border: none;
+   border-radius: 25px;
+    background-color: #ff0000;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.botao-register:hover, .botao-instagram:hover{
+    background-color: #ff0000;
+    cursor: pointer;
+}
+
+.botao-register:active{
+    background-color: #FFFFFF;    
+}
+
+
+.botao:hover{
+    background-color: #ff0000;
+    cursor: pointer;
+}
+.botao:active{
+    background-color: #ff0000;
+}
+
+.cadastre{
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    align-items: center;
+    margin-top: 90px;
+}
+
